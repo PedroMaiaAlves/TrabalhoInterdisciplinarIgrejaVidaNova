@@ -22,4 +22,6 @@ Para acessar a aplicação, basta acessar o seguinte link:
 
 https://main.d8x1cwe7qqet6.amplifyapp.com/
 
+*Applicação fora do ar devido ao custo de mantê-la
+
 Ao abrir a página, será necessário criar uma conta para utilizar os recursos disponíveis. Após o cadastro, você já poderá acessar todas as funcionalidades do sistema normalmente.
