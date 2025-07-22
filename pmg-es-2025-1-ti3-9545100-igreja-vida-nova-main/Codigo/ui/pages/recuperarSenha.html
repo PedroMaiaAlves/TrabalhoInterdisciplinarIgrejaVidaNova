@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar Senha</title>
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+
+<body class="bodyRecuperar">
+    <header class="headerPadrao">
+        <button id="botaoVoltar">Voltar</button>
+    </header>
+
+    <main class="mainRecuperar">
+        <div class="containerRecuperar">
+            <h1 class="h1Recuperar">Recuperar Senha</h1>
+            <form class="formRecuperar" id="formularioRecuperar">
+                <label class="labelRecuperar" for="email">E-mail</label>
+                <input class="inputRecuperar" type="email" id="email" name="email" required>
+                
+                <button type="submit" class="botaoRecuperar">Enviar</button>
+            </form>
+            <p class="textoInstrucao">Você receberá um e-mail com as instruções para redefinir sua senha.</p>
+        </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="../controller/recuperarSenha.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="../assets/cadastro.css">
+</head>
+
+<body class="bodyCadastro flex">
+    
+    <header class="headerPadrao">
+        <button id="botaoVoltar">Voltar</button>
+    </header>
+
+    <main class="mainCadastro flex">
+        <div class="containerCadastro">
+            <h1 class="h1Cadastro">Cadastro</h1>
+            <form class="formCadastro" id="formularioCadastro">
+                <label class="labelCadastro" for="nomeCompleto">Nome Completo</label>
+                <input class="inputCadastro" type="text" id="nomeCompleto" name="nomeCompleto" required>
+    
+                <label class="labelCadastro" for="apelido">Apelido</label>
+                <input class="inputCadastro" type="text" id="apelido" name="apelido" required>
+    
+                <label class="labelCadastro" for="email">E-mail</label>
+                <input class="inputCadastro" type="email" id="email" name="email" required>
+    
+                <label class="labelCadastro" for="dataNascimento">Data de Nascimento</label>
+                <input class="inputCadastro" type="date" id="dataNascimento" name="dataNascimento" required>
+    
+                <label class="labelCadastro" for="senha">Senha</label>
+                <input class="inputCadastro" type="password" id="senha" name="senha" required>
+    
+                <label class="labelCadastro" for="confirmarSenha">Confirmação de Senha</label>
+                <input class="inputCadastro" type="password" id="confirmarSenha" name="confirmarSenha" required>
+    
+                <button type="submit" class="botaoCadastrar">Cadastrar</button>
+            </form>
+            <a href="../pages/login.html" class="linkFazerLogin">Já possui cadastro? Faça login</a>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>    
+    <script src="../controller/cadastroMembro.js"></script>
+</body>
+
+</html>

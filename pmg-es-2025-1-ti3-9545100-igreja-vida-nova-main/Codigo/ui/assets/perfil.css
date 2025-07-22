@@ -1,0 +1,111 @@
+.bodyPerfil {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f9f9f9;
+  padding-top: 60px;
+}
+
+.mainPerfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 60px);
+}
+
+/* CONTAINER DO PERFIL */
+.containerPerfil {
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+.h1Perfil {
+  margin-bottom: 20px;
+}
+
+.infoPerfil {
+  list-style: none;
+  padding: 0;
+}
+
+.infoPerfil li {
+  margin: 40px;
+  padding: 10px;
+}
+
+.infoBox {
+  font-size: 16px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  text-align: left;
+}
+
+/* BOTÃO EDITAR */
+.botaoEditar {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.botaoEditar:hover {
+  background-color: #333;
+}
+
+.campo {
+  font-size: 16px;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+.btn-excluir {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px;
+  padding: 6px, 12px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 600px) {
+  .containerPerfil {
+    padding: 15px;
+    width: 95%;
+  }
+
+  #botaoVoltar {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .infoBox {
+    font-size: 14px;
+  }
+
+  .botaoEditar {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

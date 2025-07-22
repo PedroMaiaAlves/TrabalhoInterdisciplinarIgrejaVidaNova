@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Obreiro</title>
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="../assets/obreiros.css"> 
+    <link rel="stylesheet" href="../assets/cadastro.css">
+
+</head>
+
+<body class="bodyCadastro flex">
+
+    <header class="headerPadrao">
+        <div class="perfilLateral">
+            <img src="../assets/fotos/pastoricone.jpg" alt="Ícone de Perfil" class="iconePerfil">
+            <p>Pastor</p>
+        </div>
+        <button id="botaoVoltar">Voltar</button>
+    </header>
+
+    <main class="mainCadastro flex">
+        <div class="containerCadastro">
+            <h1 class="h1Cadastro">Criar Obreiro</h1>
+            <form class="formCadastro flex" id="formularioCriarObreiro">
+                <label class="labelCadastro" for="nomeMembro">Nome</label>
+                <input class="inputCadastro" type="text" id="nomeMembro" name="nomeMembro" 
+                       placeholder="Digite o nome do membro a virar obreiro" required>
+
+                <label class="labelCadastro" for="apelidoMembro">Apelido</label>
+                <input class="inputCadastro" type="text" id="apelidoMembro" name="apelidoMembro" 
+                       placeholder="Digite o apelido do membro a virar obreiro" required>
+
+                <button type="submit" class="botaoCadastrar">Criar</button>
+            </form>
+
+        </div>
+    </main>
+
+    <footer>
+    </footer>
+    <!-- Script -->
+<script src="../controller/criarObreiro.js"> </script>
+</body>
+
+</html>

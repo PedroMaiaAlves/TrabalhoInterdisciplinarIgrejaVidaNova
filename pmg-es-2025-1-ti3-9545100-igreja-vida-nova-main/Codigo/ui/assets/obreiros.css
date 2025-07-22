@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.headerPadrao {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    z-index: 1000;
+}
+
+#botaoVoltar {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.bodyCadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 60px;
+}
+
+.containerCadastro {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+.h1Cadastro {
+    margin-bottom: 20px;
+}
+
+.containerExcluir {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.colunaEsquerda, .colunaDireita {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cardExcluir {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.cardExcluir:hover {
+    background-color: #e0e0e0;
+}
+
+.iconeObreiro {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.iconeLixo {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.infoObreiro {
+    text-align: justify;
+}
+
+.infoObreiro p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.iconePerfil {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.perfilLateral {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.perfilLateral p {
+    margin: 0;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .containerCadastro {
+        padding: 15px;
+        width: 95%;
+    }
+
+    #botaoVoltar {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .infoObreiro p {
+        font-size: 12px;
+    }
+}

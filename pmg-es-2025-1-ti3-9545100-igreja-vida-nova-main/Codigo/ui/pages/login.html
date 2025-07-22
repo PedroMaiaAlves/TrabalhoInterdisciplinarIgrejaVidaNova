@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="../assets/perfil.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body class="bodyLogin flex">
+    
+    <header class="headerPadrao">
+        <button id="botaoVoltar">Voltar</button>
+    </header>
+
+    <main class="mainLogin flex">
+        <div class="containerLogin">
+            <h1 class="h1Login">Login</h1>
+            <div>
+                <form class="formLogin flex" id="formularioLogin">
+                    <label class="labelLogin" for="email">E-mail</label>
+                    <input class="inputLogin" type="email" id="email" name="email" required>
+
+                    <label class="labelLogin" for="senha">Senha</label>
+                    <input class="inputLogin" type="password" id="senha" name="senha" required>
+
+                    <a href="../pages/recuperarSenha.html" class="linkRecuperarSenha">Esqueci minha senha</a>
+
+                    <button type="submit" class="botaoEntrar" id="btn-login">Entrar</button>
+            </div>
+            </form>
+            <a href="../pages/cadastro.html" class="linkFazerCadastro">Não possui cadastro?</a>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="../controller/login.js"></script>
+</body>
+
+</html>

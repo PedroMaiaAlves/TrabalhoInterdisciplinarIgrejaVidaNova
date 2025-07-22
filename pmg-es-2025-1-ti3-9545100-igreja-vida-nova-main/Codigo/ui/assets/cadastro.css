@@ -1,0 +1,110 @@
+
+/* ESTILOS GERAIS */
+.bodyCadastro {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f9f9f9;
+  padding-top: 60px; /* Para evitar sobreposição do header */
+}
+
+.mainCadastro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 60px);
+}
+
+/* CONTAINER DO FORMULÁRIO */
+.containerCadastro {
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+.h1Cadastro {
+  margin-bottom: 20px;
+}
+
+.formCadastro {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 30px;
+}
+
+/* CAMPOS DE TEXTO */
+.labelCadastro {
+  font-size: 14px;
+  text-align: left;
+  font-weight: bold;
+  size: 90%;
+}
+
+.inputCadastro {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* LINKS */
+.linkFazerLogin {
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+.linkFazerLogin:hover {
+  text-decoration: underline;
+}
+
+/* BOTÕES */
+.botaoCadastrar {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.botaoCadastrar:hover {
+  background-color: #333;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 600px) {
+  .containerCadastro {
+    padding: 15px;
+    width: 95%;
+  }
+
+  #botaoVoltar {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .inputCadastro {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .botaoCadastrar {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
